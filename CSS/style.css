@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    background-color: wheat;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: firebrick;
+    padding: 30px;
+    align-items: center;
+}
+.cabecalho ul{
+display: flex;
+gap: 30px;
+}
+
+.cabecalho ul li a{
+color: forestgreen;
+}
+/* .main{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.ladoe{
+    background-color: red;
+}
