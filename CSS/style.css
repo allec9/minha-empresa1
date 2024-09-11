@@ -6,7 +6,7 @@
     list-style: none;
     text-decoration: none;
 }
-.body{
+.body {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -30,11 +30,6 @@ gap: 30px;
 .cabecalho ul li a{
 color: forestgreen;
 }
-/* .main{
-    display: flex;
-    justify-content: space-between;
-} */
-
-.ladoe{
-    background-color: red;
+.main{
+    padding: 30px 60px;
 }
