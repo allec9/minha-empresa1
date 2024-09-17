@@ -1,49 +1,56 @@
-.pai-dos-lados{
+.pai-dos-lados {
     display: flex;
 }
-.pai-dos-lados div{
-width: 50%;
+
+.pai-dos-lados div {
+    width: 50%;
 }
-.pai-dos-lados .ladod img{
-width: 100%;
+
+.pai-dos-lados .ladod img {
+    width: 100%;
 }
+
 .pai-dos-lados .ladoe p {
-text-align: justify;
+    text-align: justify;
 }
-.pai-dos-lados .ladoe{
-gap: 20px;
-display: flex;
-flex-direction: column;
+
+.pai-dos-lados .ladoe {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
-.pai-dos-lados .ladoe button{
-width: 200px;
-border: 2px black solid;
-border-radius: 4px;
-padding: 10px 20px; 
-background-color: firebrick;
-color: white;
-box-shadow: black 3px 3px 5px;
-cursor: pointer;
-}
-.pai-dos-lados .ladoe button:hover{
-background-color: brown;
-}
-.pai-dos-lados .ladoe h1, .newsletter h2{
+
+
+.pai-dos-lados .ladoe h1,
+.newsletter h2 {
     background-color: aquamarine;
     text-transform: uppercase;
 }
-.newsletter{
+
+.newsletter {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.newsletter .paragrafo p{
+
+.newsletter .paragrafo p {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.newsletter .escrever form{
+
+.newsletter .escrever form {
     display: flex;
-    flex-direction: column;
     gap: 5px;
+}
+
+.btn {
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: firebrick;
+    color: white;
+    box-shadow: black 3px 3px 5px;
+    cursor: pointer;
 }
