@@ -1,5 +1,7 @@
 .pai-dos-lados {
     display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
 }
 
 .pai-dos-lados div {
@@ -31,6 +33,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .newsletter .paragrafo p {
@@ -43,6 +46,9 @@
     display: flex;
     gap: 5px;
 }
+.newsletter form input {
+    padding: 10px 6px;
+}
 
 .btn {
     width: 200px;
@@ -53,4 +59,18 @@
     color: white;
     box-shadow: black 3px 3px 5px;
     cursor: pointer;
+}
+@media screen and (max-width: 780px) { 
+    .newsletter .form{
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+@media screen and (max-width: 733px) {
+    .pai-dos-lados{
+        flex-direction: column-reverse;
+    }
+    .pai-dos-lados div {
+        width: 100%;
+    }
 }

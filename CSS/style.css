@@ -36,18 +36,22 @@ color: forestgreen;
 }
 .rodape{
     background-color: #333;
+    padding: 15px;
+    text-align: center;
 }
-@media screen and (max-width: 500px) {
-    .cabecalho nav {
-        display: none;
-    }
-}
+
 .cabecalho nav ul li .selected{
     background: wheat;
     color: black;
 }
 
-@keyframes balada {
+@media screen and (max-width: 650px) {
+    .main{
+     padding: 10px;
+    }
+ }
+
+@keyframes balada { /* animação de cores */
     0% {
 color: greenyellow;
     }
@@ -58,7 +62,7 @@ color: blueviolet;
 color: yellow;
     }
 }
-@keyframes movimentar{
+@keyframes movimentar{ /* animação de movimento */
     0%{
 transform: translate(-300px);
     }
