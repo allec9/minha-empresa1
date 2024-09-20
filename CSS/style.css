@@ -6,12 +6,9 @@
     list-style: none;
     text-decoration: none;
 }
-.body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 30px;
-    height: 100vh;
+body{
+    background: linear-gradient(to top, #ff0000, #fff, #000);
+    animation: movimentar 3s;
 }
 .cabecalho{
     display: flex;
@@ -26,6 +23,7 @@ display: flex;
 gap: 30px;
 }
 
+
 .cabecalho ul li a{
 color: forestgreen;
 }
@@ -38,4 +36,33 @@ color: forestgreen;
 }
 .rodape{
     background-color: #333;
+}
+@media screen and (max-width: 500px) {
+    .cabecalho nav {
+        display: none;
+    }
+}
+.cabecalho nav ul li .selected{
+    background: wheat;
+    color: black;
+}
+
+@keyframes balada {
+    0% {
+color: greenyellow;
+    }
+    50% {
+color: blueviolet;
+    }
+    100% {
+color: yellow;
+    }
+}
+@keyframes movimentar{
+    0%{
+transform: translate(-300px);
+    }
+    100%{
+transform: translate(0);
+    }
 }
